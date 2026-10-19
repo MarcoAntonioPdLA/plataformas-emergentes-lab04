@@ -36,8 +36,21 @@ yarn-error.*
 # typescript
 *.tsbuildinfo
 
-example
+# editor / IDE
+.vscode/
+.idea/
+*.code-workspace
 
-# generated native folders
+# local tooling / caches
+.cache/
+.tmp/
+.temp/
+coverage/
+
+# examples / generated folders
+example
 /ios
 /android
+
+# OS-specific junk
+Thumbs.db
